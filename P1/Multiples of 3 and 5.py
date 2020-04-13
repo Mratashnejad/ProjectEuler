@@ -8,7 +8,7 @@ for i in range(1, 10000):
         print("Number is divided to 3 =" , i)
         multiples += i
     elif i % 5 == 0:
-        #عدد قابل تقسیم به عدد 5 است
+        #عدد قابل تقسیم به عدد 5 است asd
         print("Number is divided to 5 =", i)
         
         multiples += i
