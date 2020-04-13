@@ -4,7 +4,7 @@
 multiples = 0
 for i in range(1, 10000):
     if i % 3 == 0:
-        #عدد قابل تقسیم به عدد 3 است
+        #عدد قابل تقسیم به عدد 3 است 111
         print("Number is divided to 3 =" , i)
         multiples += i
     elif i % 5 == 0:
