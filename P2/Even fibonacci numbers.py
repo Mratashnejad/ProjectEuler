@@ -1,15 +1,11 @@
+A = 2
 fib = 0
-a = 0
-b = 1
-counter = 0
-total =0
+result = 2
+total = 0
 
-if fib <= 400000:
-    for i in range(1, 500000):
-        fib = a + b
-        a = b
-        b = fib
-        print (fib)
-    if fib % 2 == 0:
-        total +=fib
-        print(total)
+while (result < 4000000):
+    total += result
+    result = 4*A + fib
+    fib = A
+    A = result
+print(total)
