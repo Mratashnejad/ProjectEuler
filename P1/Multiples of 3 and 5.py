@@ -12,4 +12,4 @@ for i in range(1, 10000):
         print("Number is divided to 5 =", i)
         
         multiples += i
-print ("Sum of Natural numbers below 10 is :" ,  multiples)
+print ("Suum of Natural numbers below 10 is :" ,  multiples)
