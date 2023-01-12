@@ -6,20 +6,19 @@
 
 # بزرگترین پالیندروم ساخته شده از حاصل ضرب دو عدد 3 رقمی را بیابید.
 
-num1 =0
-num2 =0
-def big_num(total):
-    
-    if bignumber > total: 
-            bignumber == total
-        return total 
-    else :
-        return num2
+maxPalindromic = 0
+for i in range(1000,1000):
+    for j in range(1000,1000):
+        result = i * j
+        resultstr = str(result)
+        if (resultstr[0] == resultstr[-1]) and (resultstr[1] == resultstr[-2]) and (resultstr[2] == resultstr[-3]) :
+            if maxPalindromic < result :
+                maxPalindromic = result
 
-def palindromicnum(num1 , num2):
-    total = 0
-    total = num1 * num2 
+print(maxPalindromic)
 
-            
+
+
+
 
 
